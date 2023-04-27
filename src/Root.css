@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Sunflower light';
+    src: url(./assets/fonts/Sunflower/Sunflower-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Sunflower medium';
+    src: url(./assets/fonts/Sunflower/Sunflower-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Sunflower bold';
+    src: url(./assets/fonts/Sunflower/Sunflower-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Space grotesk light';
+    src: url(./assets/fonts/Space_Grotesk/static/SpaceGrotesk-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Space grotesk regular';
+    src: url(./assets/fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Space grotesk bold';
+    src: url(./assets/fonts/Space_Grotesk/static/SpaceGrotesk-Bold.ttf);
+}
+
+:root {
+    /* font size */
+    --fs-sm: 12px;
+    --fs-md: 16px;
+    --fs-lg: 30px;
+    --fs-xl: 40px;
+
+    /* font color */
+    --fc-Black: #040404;
+    --fc-grey: #B4B4B4;
+    --fc-white: #FFFFFF;
+
+    /* font family */
+    --ff-Sunflowerlight: 'Sunflower light';
+    --ff-SunflowerMed: 'Sunflower medium';
+    --ff-SunflowerBold: 'Sunflower Bold';
+    --ff-SpacegroteskLight: 'Space grotesk light';
+    --ff-SpacegroteskReg: 'Space grotesk regular';
+    --ff-SpacegroteskBold: 'Space grotesk bold';
+
+}
+
+/* font family */
+.ff_Sunflowerlight {
+    font-family: var(--ff-Sunflowerlight);
+}
+
+.ff_SunflowerMed {
+    font-family: var(--ff-SunflowerMed);
+}
+
+.ff_SunflowerBold {
+    font-family: var(--ff-SunflowerBold);
+}
+
+.ff_SpacegroteskLight {
+    font-family: var(--ff-SpacegroteskLight);
+}
+
+.ff_SpacegroteskReg {
+    font-family: var(--ff-SpacegroteskReg);
+}
+
+.ff_SpacegroteskBold {
+    font-family: var(--ff-SpacegroteskBold);
+}
+
+/* font color */
+.fc_Black {
+    color: var(--fc-Black);
+}
+
+.fc_grey {
+    color: var(--fc-grey);
+}
+
+.fc_white {
+    color: var(--fc-white);
+}
+
+/* font size */
+
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 18px;
+        --fs-lg: 36px;
+        --fs-xl: 50px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-sm: 16px;
+        --fs-md: 20px;
+        --fs-lg: 40px;
+        --fs-xl: 55px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-lg: 52px;
+        --fs-xl: 58px;
+    }
+}
+
+
+@media (min-width:1200px) {
+    :root {
+        --fs-lg: 54px;
+        --fs-xl: 60px;
+    }
+}
+
+@media (min-width:1400px) {
+    :root {
+        --fs-sm: 16px;
+        --fs-md: 20px;
+        --fs-lg: 56px;
+        --fs-xl: 64px;
+    }
+}
